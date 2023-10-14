@@ -30,5 +30,6 @@ Route.get('/', async () => {
 // Route.get('/posts/:id', 'PostsController.show')
 // Route.put('/posts/:id', 'PostsController.update')
 // Route.delete('/posts/:id', 'PostsController.destroy')
+//test tvm
 
 Route.resource('/posts', 'PostsController').apiOnly()
